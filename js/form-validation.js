@@ -52,8 +52,12 @@ $(document).ready(function(){
 				maxlength: "2000 characters max."
 			}
 		},
+/*
+		AJAX submit the form data to back end if rules pass
+*/
 
-		// AJAX submit the form data to back end if rules pass
+
+
 		submitHandler: function(form) {
 			$("#my-contact-form").ajaxSubmit({
 				type: "POST",
